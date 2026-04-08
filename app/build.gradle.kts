@@ -34,8 +34,11 @@ android {
     }
     buildFeatures {
         compose = true
-        viewBinding = true
     }
+}
+
+base {
+    archivesName = "cartoon-photo-${android.defaultConfig.versionName}"
 }
 
 dependencies {
@@ -47,6 +50,8 @@ dependencies {
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.androidx.compose.ui.tooling.preview)
     implementation(libs.androidx.compose.material3)
+    implementation(libs.androidx.compose.material.icons.core)
+    implementation(libs.androidx.compose.material.icons.extended)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -55,5 +60,6 @@ dependencies {
     debugImplementation(libs.androidx.compose.ui.tooling)
     debugImplementation(libs.androidx.compose.ui.test.manifest)
 
-    implementation("com.microsoft.onnxruntime:onnxruntime-android:1.24.3")
+    // ONNX Runtime
+    implementation(libs.onnxruntime.android)
 }

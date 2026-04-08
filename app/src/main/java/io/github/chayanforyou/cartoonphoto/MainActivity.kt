@@ -17,17 +17,17 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        
+
         // Set status bar icons to dark (black)
         WindowCompat.getInsetsController(window, window.decorView).apply {
             isAppearanceLightStatusBars = true
             isAppearanceLightNavigationBars = true
         }
-        
+
         setContent {
             AppTheme {
                 var currentScreen by remember { mutableStateOf<Screen>(Screen.Home) }
-                
+
                 when (val screen = currentScreen) {
                     is Screen.Home -> {
                         HomeScreen(
@@ -37,6 +37,7 @@ class MainActivity : ComponentActivity() {
                             }
                         )
                     }
+
                     is Screen.Result -> {
                         ResultScreen(
                             originalBitmap = screen.originalBitmap,
