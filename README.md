@@ -53,6 +53,10 @@ The app includes three pre-trained ONNX models located in `app/src/main/assets/`
     └── PermissionHelper.kt           # Permission handling
 ```
 
+## Sample Video
+
+https://github.com/user-attachments/assets/1b424bf4-0695-46f6-a331-6201f60fdfaa
+
 ## Reference
 
 - [TachibanaYoshino/AnimeGANv2](https://github.com/TachibanaYoshino/AnimeGANv2) - AnimeGANv2
