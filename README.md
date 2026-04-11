@@ -53,7 +53,7 @@ The app includes three pre-trained ONNX models located in `app/src/main/assets/`
     └── PermissionHelper.kt           # Permission handling
 ```
 
-## Sample Video
+## Demo Video
 
 https://github.com/user-attachments/assets/1b424bf4-0695-46f6-a331-6201f60fdfaa
 
@@ -67,7 +67,7 @@ https://github.com/user-attachments/assets/1b424bf4-0695-46f6-a331-6201f60fdfaa
 
 ## Author
 
-Chayan Ranasinghe ([@chayanforyou](https://github.com/chayanforyou))
+Chayan Mistry ([@chayanforyou](https://github.com/chayanforyou))
 
 ## License
 
