@@ -3,7 +3,9 @@
 AnimeGANv2 ONNX inference sample for Android using Jetpack Compose.  
 This app converts photos into anime-style images using pre-trained ONNX models.
 
-![Sample](app/src/main/res/drawable/sample.png)
+## Preview
+
+https://github.com/user-attachments/assets/1b424bf4-0695-46f6-a331-6201f60fdfaa
 
 ## Features
 
@@ -12,6 +14,10 @@ This app converts photos into anime-style images using pre-trained ONNX models.
 - 🔄 Before/After comparison slider
 - 💾 Save processed images to gallery
 - ⚡ Fast on-device inference with ONNX Runtime
+
+## Download
+
+Download the apk from [latest release](https://github.com/chayanforyou/Cartoon-Photo-Maker/releases/latest)
 
 ## Models
 
@@ -52,10 +58,6 @@ The app includes three pre-trained ONNX models located in `app/src/main/assets/`
     ├── ImageSaver.kt                 # Image saving utility
     └── PermissionHelper.kt           # Permission handling
 ```
-
-## Demo Video
-
-https://github.com/user-attachments/assets/1b424bf4-0695-46f6-a331-6201f60fdfaa
 
 ## Reference
 
